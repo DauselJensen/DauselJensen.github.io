@@ -211,7 +211,8 @@ nav ul li a:hover::after{
 /* school_projects */
 
 
-#school_projects{
+#school_projects,
+#phd_projects{
     padding: 100px 0;
 
 }
@@ -279,6 +280,16 @@ nav ul li a:hover::after{
 
 .school_projects:hover .layer{
     height: 100%;
+}
+
+.projects_note{
+    margin-top: 20px;
+    text-align: center;
+    color: #ababab;
+}
+
+.projects_note span{
+    color: #f72a6b;
 }
 /* 
 .btn {
