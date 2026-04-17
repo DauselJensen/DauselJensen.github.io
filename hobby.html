@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobby Projects | Christian Dausel Jensen</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0925dff24d.js" crossorigin="anonymous"></script>
+</head>
+<body class="subpage">
+
+<nav class="top_nav">
+    <button class="menu_toggle" type="button">Menu</button>
+    <ul class="top_menu">
+        <li class="menu_group">
+            <a href="main.html">Main</a>
+            <ul class="submenu">
+                <li><a href="main.html#home">Home</a></li>
+                <li><a href="main.html#about">About</a></li>
+                <li><a href="main.html#coaching_experience">Coaching</a></li>
+                <li><a href="main.html#contact">Contact</a></li>
+            </ul>
+        </li>
+        <li class="menu_group">
+            <a href="research.html">Research</a>
+            <ul class="submenu">
+                <li><a href="research.html#research_projects">Overview</a></li>
+                <li><a href="research.html#school_projects">Bachelor</a></li>
+                <li><a href="research.html#master_projects">Master</a></li>
+                <li><a href="research.html#phd_projects">PhD</a></li>
+            </ul>
+        </li>
+        <li class="menu_group">
+            <a href="hobby.html" class="active_nav">Hobby</a>
+            <ul class="submenu">
+                <li><a href="hobby.html#hobby_projects">Overview</a></li>
+                <li><a href="hobby.html#game">Game</a></li>
+                <li><a href="hobby.html#websites">Websites</a></li>
+                <li><a href="hobby.html#youtube_editing">Editing</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<div class="page_intro">
+    <div class="container">
+        <h1 class="sub_title">Hobby projects</h1>
+        <p>Game development, websites, and editing.</p>
+    </div>
+</div>
+
+<!-- Hobby Projects -->
+<div id="hobby_projects">
+    <div class="container">
+        <h1 class="sub_title">Hobby overview</h1>
+        <div class="hobby_projects_list">
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Creating a Game</h2>
+                <p>Coding a game in Python with Pygame, making animation and level design with Aseprite and Tiled, and tracking progress in ClickUp.</p>
+                <a href="#organised">See game project details</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Coding Websites</h2>
+                <p>I build websites for personal projects, including this portfolio, YouTube support pages, and a bunny website.</p>
+                <a href="#websites">See website project details</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-youtube"></i>
+                <h2>Editing Videos and Pictures</h2>
+                <p>Editing videos in Davinci Resolve and preparing pictures for websites and thumbnails.</p>
+                <a href="#youtube_editing">See editing project details</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Organised -->
+<div id="organised">
+    <div class="container">
+        <h1 class="sub_title">Hobby project details</h1>
+        <nav class="section_nav">
+            <ul>
+                <li><a href="#organise">Organised</a></li>
+                <li><a href="#game">Creating Game</a></li>
+                <li><a href="#websites">Coding Websites</a></li>
+                <li><a href="#youtube_editing">Editing YouTube</a></li>
+            </ul>
+        </nav>
+
+        <div id="organise">
+            <div class="content">
+                <h2>How I stay organised</h2>
+                <div class="row">
+                    <img src="images/hobby%20projects/clikcup_log.png" alt="ClickUp board">
+                    <div class="text">
+                        <h2><span>Clickup</span> as planning tool</h2>
+                        <p>ClickUp tracks programming tasks, animation work, and weekly plans. I use it every Sunday to plan the upcoming week and every day as a checklist.</p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <img src="images/hobby%20projects/Microsoft To-Do.png" alt="Microsoft To Do list">
+                    <div class="text">
+                        <h2><span>Microsoft To Do</span> as a checklist</h2>
+                        <p>ClickUp is my big picture planning tool, while Microsoft To Do helps me keep track of small everyday tasks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Game -->
+<div id="game">
+    <div class="container">
+        <h1 class="sub_title">Creating "The Cozy Sunflower"</h1>
+        <div class="content">
+            <div class="row">
+                <video controls class="video" preload="metadata">
+                    <source src="game/fremvisning.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="text">
+                    <h2>Coding movement and layers</h2>
+                    <p>This is the game project that my fiancee and I are building. I code gameplay systems in <span>Pygame</span> with <span>Python</span>.</p>
+                </div>
+
+                <video controls class="video" preload="metadata">
+                    <source src="game/asesprite%20fremvisning.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="text">
+                    <h2>Creating pixel-art and animation</h2>
+                    <p>We use <span>Aseprite</span> for 16x16 pixel-art and import assets into <span>Tiled</span> for map building and level design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Websites -->
+<div id="websites">
+    <div class="container">
+        <h1 class="sub_title">Coding websites</h1>
+        <div class="detail_cards">
+            <div class="detail_card">
+                <h2>Portfolio Website</h2>
+                <p>This portfolio is an active project where I keep improving the design, structure, and project overview.</p>
+                <a href="https://github.com/DauselJensen/DauselJensen.github.io" target="blank">Tentative link: DauselJensen.github.io on GitHub</a>
+            </div>
+            <div class="detail_card">
+                <h2>YouTube Support Website</h2>
+                <p>Pages for project links, visual assets, and release notes for YouTube related content.</p>
+            </div>
+            <div class="detail_card">
+                <h2>Pet Bunny Website</h2>
+                <p>A fun side project with bunny pictures and small interactive pages.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Editing -->
+<div id="youtube_editing">
+    <div class="container">
+        <h1 class="sub_title">Editing YouTube and media</h1>
+        <div class="detail_cards">
+            <div class="detail_card">
+                <h2>Video Editing</h2>
+                <p>Editing workflow in Davinci Resolve for clips, pacing, and final exports.</p>
+            </div>
+            <div class="detail_card">
+                <h2>Thumbnail and Graphics</h2>
+                <p>Preparing images and graphics for channel visuals and website content.</p>
+            </div>
+            <div class="detail_card">
+                <h2>Publishing Pipeline</h2>
+                <p>Reserved space for upload checklist, metadata notes, and release coordination.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="nav.js"></script>
+</body>
+</html>

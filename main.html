@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Dausel Programming Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0925dff24d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+<!-- Home -->
+<div id="home">
+    <div class="container">
+        <nav class="top_nav">
+            <button class="menu_toggle" type="button">Menu</button>
+            <ul class="top_menu">
+                <li class="menu_group">
+                    <a href="main.html" class="active_nav">Main</a>
+                    <ul class="submenu">
+                        <li><a href="main.html#home">Home</a></li>
+                        <li><a href="main.html#about">About</a></li>
+                        <li><a href="main.html#coaching_experience">Coaching</a></li>
+                        <li><a href="main.html#contact">Contact</a></li>
+                    </ul>
+                </li>
+                <li class="menu_group">
+                    <a href="research.html">Research</a>
+                    <ul class="submenu">
+                        <li><a href="research.html#research_projects">Overview</a></li>
+                        <li><a href="research.html#school_projects">Bachelor</a></li>
+                        <li><a href="research.html#master_projects">Master</a></li>
+                        <li><a href="research.html#phd_projects">PhD</a></li>
+                    </ul>
+                </li>
+                <li class="menu_group">
+                    <a href="hobby.html">Hobby</a>
+                    <ul class="submenu">
+                        <li><a href="hobby.html#hobby_projects">Overview</a></li>
+                        <li><a href="hobby.html#game">Game</a></li>
+                        <li><a href="hobby.html#websites">Websites</a></li>
+                        <li><a href="hobby.html#youtube_editing">Editing</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="home_text">
+            <div class="home_poster">
+                <div class="poster_intro">
+                    <p class="poster_label">Portfolio</p>
+                    <h1>Christian Dausel Jensen</h1>
+                    <p>Research, coding, and creative projects.</p>
+                </div>
+
+                <div class="poster_collage">
+                    <figure class="polaroid photo_1"><img src="images/home/DSC07686.JPG" alt="Photo slot 1"></figure>
+                    <figure class="polaroid photo_2"><img src="images/home/DSC07686.JPG" alt="Photo slot 2"></figure>
+                    <figure class="polaroid photo_3"><img src="images/home/DSC07686.JPG" alt="Photo slot 3"></figure>
+                    <figure class="polaroid photo_4"><img src="images/home/DSC07686.JPG" alt="Photo slot 4"></figure>
+                    <figure class="polaroid photo_5"><img src="images/home/DSC07686.JPG" alt="Photo slot 5"></figure>
+                    <figure class="polaroid photo_6"><img src="images/home/DSC07686.JPG" alt="Photo slot 6"></figure>
+                    <figure class="polaroid photo_7"><img src="images/home/DSC07686.JPG" alt="Photo slot 7"></figure>
+                    <figure class="polaroid photo_8"><img src="images/home/DSC07686.JPG" alt="Photo slot 8"></figure>
+                    <figure class="polaroid photo_9"><img src="images/home/DSC07686.JPG" alt="Photo slot 9"></figure>
+                    <figure class="polaroid photo_10"><img src="images/home/DSC07686.JPG" alt="Photo slot 10"></figure>
+                    <figure class="polaroid photo_11"><img src="images/home/DSC07686.JPG" alt="Photo slot 11"></figure>
+                    <figure class="polaroid photo_12"><img src="images/home/DSC07686.JPG" alt="Photo slot 12"></figure>
+                    <figure class="polaroid photo_13"><img src="images/home/DSC07686.JPG" alt="Photo slot 13"></figure>
+                    <figure class="polaroid photo_14"><img src="images/home/DSC07686.JPG" alt="Photo slot 14"></figure>
+                    <figure class="polaroid photo_15"><img src="images/home/DSC07686.JPG" alt="Photo slot 15"></figure>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- About -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/about/crop.png" style="width: 80%;" alt="Portrait image">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub_title">About me</h1>
+                <p>I am a student at Aalborg University, work in a bakery during weekends, and build game and web projects in my free time with my fiancee.</p>
+
+                <div class="tab_title">
+                    <p class="tab_links active_link" onclick="opentab('hobbies')">Hobbies</p>
+                    <p class="tab_links" onclick="opentab('everyday_life')">Everyday life</p>
+                    <p class="tab_links" onclick="opentab('fun_facts')">Fun facts</p>
+                </div>
+
+                <div class="tab_contents active_tab" id="hobbies">
+                    <ul>
+                        <li><span>Coding</span><br>I built this portfolio with HTML, CSS, and JavaScript.</li>
+                        <li><span>Gaming</span><br>I build a game in Pygame using Python and I also enjoy gaming when I am off work.</li>
+                        <li><span>Editing</span><br>I like recording my bunny and fiancee, then editing videos in Davinci Resolve.</li>
+                    </ul>
+                </div>
+
+                <div class="tab_contents" id="everyday_life">
+                    <ul>
+                        <li><span>Morning</span><br>I wake up around 05:00 or 06:00 and prepare for the day.</li>
+                        <li><span>School</span><br>I go to university from 08:00 to 17:00.</li>
+                        <li><span>Workout</span><br>I train from 17:00 to 18:00.</li>
+                        <li><span>Relax</span><br>I eat dinner and relax before bed around 21:00.</li>
+                    </ul>
+                </div>
+
+                <div class="tab_contents" id="fun_facts">
+                    <ul>
+                        <li><span>I keep a weekly log</span><br>I plan and track my weeks so daily tasks do not get lost.</li>
+                        <li><span>I completed Copenhagen Marathon 2023</span><br>A challenge from friends got me into running and I finished it.</li>
+                        <li><span>I am a fan of Kurzgesagt</span><br>I have collected books and posters from them.</li>
+                        <li><span>Rabbit person</span><br>I would love to have four bunnies in the future.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Coaching -->
+<div id="coaching_experience">
+    <div class="container">
+        <h1 class="sub_title">Coaching experience</h1>
+        <div class="coaching_layout">
+            <div class="coaching_textbox">
+                <h2>Tentative overview</h2>
+                <p>I have coaching experience with practical guidance, weekly goals, and motivation check-ins.</p>
+                <p>This section will later include concrete examples, methods, and outcomes.</p>
+            </div>
+            <div class="coaching_image">
+                <img src="images/home/DSC07686.JPG" alt="Coaching placeholder image 1">
+            </div>
+            <div class="coaching_image">
+                <img src="images/home/DSC07686.JPG" alt="Coaching placeholder image 2">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact -->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub_title">Contact and profiles</h1>
+        <div class="contact_card">
+            <p>You can find my profile links here:</p>
+            <div class="contact_links">
+                <a href="https://github.com/DauselJensen" target="blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/" target="blank">LinkedIn</a>
+                <a href="https://orcid.org/" target="blank">ORCID</a>
+                <a href="https://vbn.aau.dk/" target="blank">AAU VBN</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="nav.js"></script>
+<script>
+    var tablinks = document.querySelectorAll(".tab_links");
+    var tabcontents = document.querySelectorAll(".tab_contents");
+
+    function opentab(tabname){
+        for (var tablink of tablinks){
+            tablink.classList.remove("active_link");
+        }
+        for (var tabcontent of tabcontents){
+            tabcontent.classList.remove("active_tab");
+        }
+        event.currentTarget.classList.add("active_link");
+        document.getElementById(tabname).classList.add("active_tab");
+    }
+</script>
+
+</body>
+</html>
